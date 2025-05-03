@@ -80,6 +80,18 @@ export default function Home() {
           </div>
         )}
 
+{username && commits.length > 0 && (
+  <div className="mt-10 bg-gray-900 border border-gray-700 rounded-lg p-4 text-sm text-white w-full max-w-2xl mx-auto">
+    <p className="mb-2 text-gray-300 font-semibold">📎 Embed in your GitHub README:</p>
+    <pre className="bg-gray-800 rounded p-3 overflow-auto text-green-400 text-xs">
+      <code>
+      ![Last 3 Commits](https://last-3-commits.vercel.app/api/commit-graph?user={username})
+      </code>
+    </pre>
+  </div>
+)}
+<br></br>
+
         <div className="w-full max-w-2xl mx-auto">
           {commits.length > 0 && (
             <div
