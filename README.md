@@ -1,8 +1,3 @@
-Sure bro, here's the **entire sexy README as a raw `.md` markdown file content** – just copy-paste it directly into your `README.md` file.
-
----
-
-````md
 # 🧠 GitHub Last 3 Commits Widget
 
 A slick, SVG-based GitHub widget that shows the **last 3 public commits** made by any user — embeddable in your GitHub profile README or website.  
@@ -99,7 +94,3 @@ Paste this directly into your README to show your latest commits:
 
 ```
 
----
-
-✅ Let me know if you want this in a downloadable `.md` file or a version with Shields.io badges like “Deploy on Vercel”, “Made with Next.js”, etc.
-```
