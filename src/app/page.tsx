@@ -145,9 +145,27 @@ export default function Home() {
             >
               <p>Enter a GitHub username to see their recent commits</p>
             </div>
+            
           )}
+          <div className="mt-16 text-center text-gray-400">
+  <p className="text-2xl font-medium">
+    ⚡ Built with ❤️ by{" "}
+    <a 
+      href="https://github.com/aliasgarsogiawala" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-blue-400 hover:text-blue-300 transition-colors duration-200"
+    >
+      Aliasgar Sogiawala
+    </a>
+  </p>
+</div>
         </div>
       </div>
     </main>
   );
 }
+
+
+// Add the built by line at the bottom
+

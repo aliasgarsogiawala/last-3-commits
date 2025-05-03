@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Sure bro, here's the **entire sexy README as a raw `.md` markdown file content** – just copy-paste it directly into your `README.md` file.
 
-## Getting Started
+---
 
-First, run the development server:
+````md
+# 🧠 GitHub Last 3 Commits Widget
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A slick, SVG-based GitHub widget that shows the **last 3 public commits** made by any user — embeddable in your GitHub profile README or website.  
+Built using **Next.js App Router**, **Edge API routes**, and pure **SVG magic** ✨
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="/screenshot.png" width="600" alt="GitHub Last 3 Commits SVG Example" />
+</p>
+
+---
+
+## 🚀 Live Example
+
+Paste this directly into your README to show your latest commits:
+
+```md
+![Last 3 Commits](https://your-vercel-app.vercel.app/api/commit-graph?user=aliasgarsogiawala)
+````
+
+🔗 Replace `aliasgarsogiawala` with your GitHub username.
+
+---
+
+## 🔌 Features
+
+* 🎯 Real-time GitHub activity
+* 🎨 Fully custom-designed SVG (no libraries)
+* 📁 Repo name + 📝 commit message
+* 🧵 Clean Tailwind-powered frontend
+* ☁️ Deploy-ready for Vercel Edge Functions
+
+---
+
+## 🛠️ How It Works
+
+* Uses GitHub’s [`/users/:username/events/public`](https://docs.github.com/en/rest/activity/events) API
+* Filters `PushEvent` types to grab real commit messages
+* Renders them beautifully as an SVG
+* Served via Edge API route: `/api/commit-graph`
+
+---
+
+## 💾 Folder Structure
+
+```
+/src
+  /app
+    /api
+      /commit-graph
+        route.ts   # Returns SVG image of 3 latest commits
+    page.tsx       # Frontend with input + demo
+/public
+  screenshot.png   # Demo preview for README
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Use Cases
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Add to your GitHub profile
+* Embed in dev portfolios
+* Show team activity in dashboards
+* Visual commit badge for OSS projects
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📎 Embed It in Your README
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```md
+[![Recent Commits](https://your-vercel-app.vercel.app/api/commit-graph?user=yourusername)](https://github.com/yourusername)
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧑‍🎨 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="center">
+  ⚡ Designed & built with 💻 by <a href="https://github.com/aliasgarsogiawala">aliasgarsogiawala</a>
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧪 Want More?
+
+* Light/Dark theme toggles?
+* PNG image export?
+* Repo links or SHA preview?
+
+→ [Open an issue](https://github.com/aliasgarsogiawala) or fork this project 🔥
+
+```
+
+---
+
+✅ Let me know if you want this in a downloadable `.md` file or a version with Shields.io badges like “Deploy on Vercel”, “Made with Next.js”, etc.
+```
