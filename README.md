@@ -8,7 +8,7 @@ Built using **Next.js App Router**, **Edge API routes**, and pure **SVG magic** 
 ## 📸 Preview
 
 <p align="center">
-  <img src="/screenshot.png" width="600" alt="GitHub Last 3 Commits SVG Example" />
+  <img src="/Screenshot 2025-05-04 at 12.36.45.png" width="600" alt="GitHub Last 3 Commits SVG Example" />
 </p>
 
 ---
@@ -18,7 +18,7 @@ Built using **Next.js App Router**, **Edge API routes**, and pure **SVG magic** 
 Paste this directly into your README to show your latest commits:
 
 ```md
-![Last 3 Commits](https://your-vercel-app.vercel.app/api/commit-graph?user=aliasgarsogiawala)
+![Last 3 Commits](https://last-3-commits.vercel.app/api/commit-graph?user=aliasgarsogiawala)
 ````
 
 🔗 Replace `aliasgarsogiawala` with your GitHub username.
@@ -42,20 +42,6 @@ Paste this directly into your README to show your latest commits:
 * Renders them beautifully as an SVG
 * Served via Edge API route: `/api/commit-graph`
 
----
-
-## 💾 Folder Structure
-
-```
-/src
-  /app
-    /api
-      /commit-graph
-        route.ts   # Returns SVG image of 3 latest commits
-    page.tsx       # Frontend with input + demo
-/public
-  screenshot.png   # Demo preview for README
-```
 
 ---
 
@@ -71,7 +57,7 @@ Paste this directly into your README to show your latest commits:
 ## 📎 Embed It in Your README
 
 ```md
-[![Recent Commits](https://your-vercel-app.vercel.app/api/commit-graph?user=yourusername)](https://github.com/yourusername)
+[![Recent Commits](https://last-3-commits.vercel.app/api/commit-graph?user=yourusername)](https://github.com/yourusername)
 ```
 
 ---
@@ -79,7 +65,7 @@ Paste this directly into your README to show your latest commits:
 ## 🧑‍🎨 Author
 
 <p align="center">
-  ⚡ Designed & built with 💻 by <a href="https://github.com/aliasgarsogiawala">aliasgarsogiawala</a>
+  ⚡ Designed & built with ❤️ by <a href="https://github.com/aliasgarsogiawala">aliasgarsogiawala</a>
 </p>
 
 ---
